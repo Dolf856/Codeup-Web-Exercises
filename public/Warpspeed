@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Warspeed Form</title>
+		<meta charset="set-8">
+	</head>
+	<body>
+		<h4>Basic Info</h4>
+		<form method="POST" action="form.php" id="form>"
+			<label for="name">Name</label>
+			<input id="name" name="name" type="text">
+	</body>
+</html>
