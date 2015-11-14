@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<head>
+	<title>Forms that</title>
+</head>
 <?php
   var_dump($_GET);
   var_dump($_POST);
@@ -56,11 +60,12 @@
 			<h3>Select Testing</h3>
     <select name="transmissions">
         <option value="1">Automatic</option>
-        <option value="0">Benz</option>
+        <option value="">Benz</option>
         <option value="cvt">CVT</option>
         <option value="porsche">PORSCHE</option>
         <option value="manual">MANUAL</option>
      </select>
         <button type="submit">Submit</button>
+        <label for="snacks">select favorite snacks</label>
 
 	</body>
