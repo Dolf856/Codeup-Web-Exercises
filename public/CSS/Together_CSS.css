@@ -1,0 +1,13 @@
+h1 {
+		font-weight: normal; text-transform: uppercase; font-style: oblique;
+	}
+	.abstract {
+		font-style: oblique; color: red; background-color: teal;
+	}
+	#article-subhead{
+		background-color: teal
+	}
+	h4 {
+		font-style: italic;
+	}
+	
