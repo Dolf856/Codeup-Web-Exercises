@@ -1,0 +1,16 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+div {
+	border: 1px solid;
+	width: 75px;
+	height: 70px;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	box-sizing: border-box;
+}

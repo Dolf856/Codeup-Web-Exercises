@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positioning Exercise</title>
+	<meta charset="UTF-8">
+	<!-- <link rel="stylesheet" type="text/css" href="CSS/css_positions.css"> -->
+<style type="text/css">
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+ p {
+	border: 1px solid black;
+	width: 72px;
+	height: 72px;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.red {
+	background-color: red;
+}
+.orange {
+	background-color: orange;	  
+}
+.yellow {
+	background-color: yellow;
+	clear: 
+}
+.green {
+	background-color: green;
+}
+.blue {
+	background-color: blue;
+}
+.purple {
+	background-color: purple;
+}
+
+#container {
+	/*float: left;*/
+	/*background-color:  grey;*/
+	margin: 72px;
+	width: 72px;
+	height: 1000px;
+
+
+}
+img {
+	position: relative;
+	left: 50px;
+	top: 2px; 
+}
+.box {
+	/*float: left;*/
+	margin: 10px 10px 0px 0px;
+	position: relative;
+	bottom: 30px;
+	}
+
+
+
+</style>
+</head>
+
+<body>
+	<a href="https://en.wikipedia.org/wiki/Visible_spectrum" target="_blank">Visible Spectrum Wavelength</a>
+	
+	<div id="container">
+		<div class="1st_box box">
+			<img src="img/codeup-arrow.png">
+			<p class="red">620-750 nm</p>
+		</div>
+		<div class="2nd_box box">
+			<img src="img/codeup-arrow.png">
+			<p class="orange">590-620 nm</p>
+		</div>
+		<div class="3rd_box box">
+			<img src="img/codeup-arrow.png">
+			<p class="yellow"> 570-590 nm</p>
+		</div>
+		<div class="4th_box box">
+			<img src="img/codeup-arrow.png">
+			<p class="green">495-570 nm</p>
+		</div>
+		<div class="5th_box box">
+			<img src="img/codeup-arrow.png">
+			<p class="blue">450-495 nm</p>
+		</div>
+		<div class="6th_box box">
+			<img src="img/codeup-arrow.png">
+			<p class="purple">380-450 nm</p>
+		</div>
+	</div>	
+</body>
+</html>
