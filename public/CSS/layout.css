@@ -1,0 +1,42 @@
+aside {
+	list-style-type: none;
+	height: 75%px;
+	width: 25%;
+	border: 5px;
+	margin: 0;
+	padding: 0;
+	background-color: #444;
+	position: relative; 
+	left: 0;
+	top: 120px;
+}
+a {
+	display: inline-block;
+	width: 80px;
+	font-weight: bold;
+	padding: 8px;
+	text-transform: uppercase;
+}
+nav {
+	border: 5px solid yellow;
+	list-style-type: none;
+	background-color: #444;
+	float: left;
+	width: 1000px;
+	height: 120px;
+	display: inline;
+}
+
+ol {
+	list-style: none;
+	margin: 5px;
+	padding: 2px;
+	float: left;
+}
+html {
+	background-color: tan;
+}
+.side-bar {
+	list-style-type: none;
+}
+

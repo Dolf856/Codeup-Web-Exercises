@@ -3,6 +3,7 @@
 <head>
 	<title>Positioning Exercise</title>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/CSS/normalize.css">
 	<!-- <link rel="stylesheet" type="text/css" href="CSS/css_positions.css"> -->
 <style type="text/css">
 html {
@@ -13,6 +14,7 @@ html {
 }
 
  p {
+ 	position: absolute;
 	border: 1px solid black;
 	width: 72px;
 	height: 72px;
@@ -22,6 +24,9 @@ html {
 	box-sizing: border-box;
 }
 .red {
+	background-color: red;
+}
+.1st_box {
 	background-color: red;
 }
 .orange {
@@ -36,30 +41,31 @@ html {
 }
 .blue {
 	background-color: blue;
+
 }
 .purple {
 	background-color: purple;
 }
 
 #container {
-	/*float: left;*/
-	/*background-color:  grey;*/
-	margin: 72px;
-	width: 72px;
-	height: 1000px;
-
-
+	width: 400px;
+	height: 500px;
 }
 img {
 	position: relative;
-	left: 50px;
-	top: 2px; 
+	left: 40px;
+	bottom: -30px; 
 }
 .box {
-	/*float: left;*/
-	margin: 10px 10px 0px 0px;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin: 50px 50px 50px 50px;
 	position: relative;
-	bottom: 30px;
+	/*clear: left;*/
+	}
+	a {
+		text-decoration: bolder;
 	}
 
 
@@ -68,7 +74,7 @@ img {
 </head>
 
 <body>
-	<a href="https://en.wikipedia.org/wiki/Visible_spectrum" target="_blank">Visible Spectrum Wavelength</a>
+	<a href="https://en.wikipedia.org/wiki/Visible_spectrum" target="_blank">Visible Spectrum Wavelengths</a>
 	
 	<div id="container">
 		<div class="1st_box box">

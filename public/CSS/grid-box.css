@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+}
+.container {
+	border: 10px solid black;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+}
+.row {
+	border: 5px solid red;
+	width: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+	border: 5px solid cyan;
+	float: left;
+}
+.column.one-half {
+	background-color: orange;
+	width: 50%;
+}
+.column.one-third {
+	width: 33%;
+	background-color: green;
+}
+.column.one-eighth {
+	width: 50%
+}
+.column.one-fourth {
+	width: 25%;
+}
+.column.one-sixth {
+	width: 50%
+}
+.one-half.half {
+	background-color: grey;
+}
+.two-third {
+	width: 66%;
+}
+.offset-one-sixth {
+	margin-left: 16.666667%;
+}

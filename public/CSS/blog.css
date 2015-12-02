@@ -1,0 +1,35 @@
+/*---------------------*\
+	HTML
+\*---------------------*/
+html {
+	background: url(/img/faces.jpg) no-repeat center;
+	background-size: cover;
+	background-size: cover;
+}
+/*----------------------*\
+	HEADER
+\*----------------------*/
+#header {
+	font-family: 'Playfair Display', serif;
+	width: 
+	}
+/*------------------------*\
+	NAVIGATION
+\*------------------------*/
+nav {
+	width: 500px;
+	height: 400px;
+	border: 1px solid black;
+}
+.links {
+	list-style-type: none;
+}
+a {
+	color: yellow;
+}
+a:visited {
+	/*green;*/
+}
+a:link {
+	/*background-color: blue;*/
+}
