@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    // ignore these lines for now
+    // just know that the variable 'color' will end up with a random value from the colors array
+    var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+    var color = colors[Math.floor(Math.random()*colors.length)];
+
+    var favorite = 'red'; // TODO: change this to your favorite color from the list
+
+    // TODO: Create a block of if/else statements to check for every color except indigo and violet.
+    // TODO: When a color is encountered log a message that tells the color, and an object of that color.
+    //       Example: Blue is the color of the sky.
+
+    // TODO: Have a final else that will catch indigo and violet.
+    // TODO: In the else, log: I do not know anything by that color.
+
+    // TODO: Using the ternary operator, conditionally log a statement that
+    //       says whether the random color matches your favorite color.
+    // if/else if/else example
+    if (color == 'red') {
+      document.write('red is the color of blood');
+      console.log('red is the color of blood');
+      document.body.style.backgroundColor = "red";
+    } else if (color == 'orange') {
+        document.write('orange is the color of an tangerine');
+        console.log('orange is the color of an tangerine');
+        document.body.style.backgroundColor = "orange";
+    } else if (color == 'yellow') {
+        document.write('yellow is the color of a cab');
+        console.log('yellow is the color of a cab');
+        document.body.style.backgroundColor = "yellow";
+    } else if (color == 'green') {
+        document.write('green is the color of an avocado');
+        console.log('green is the color of an avocado');
+        document.body.style.backgroundColor = "green";
+    } else if (color == 'blue') {
+        document.write('blue is the color of the ocean');
+        console.log('blue is the color of the ocean');
+        document.body.style.backgroundColor = "blue";
+    } else if (color == 'indigo') {
+        document.write('Indigo is irrelevant');
+        console.log('Indigo is irrelevant');
+        document.body.style.backgroundColor = "indigo";
+    } else {
+        document.write('we dont purple');
+        console.log('we dont purple');
+        document.body.style.backgroundColor = "purple";
+    }
+    var response = (color == favorite)? color + " This is my favorite color." : " This is not my favorite color.";
+      console.log(response);
+
+    </script>
+  </body>
+</html>
