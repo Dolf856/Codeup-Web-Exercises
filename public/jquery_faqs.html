@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .invisible{
+        display: none;
+
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Shenedoah</h3>
+        <ul>
+            <li>Beautiful Views</li>
+            <li>Close to Urban Areas</li>
+            <li>Close to the Appalachain Trail</li>
+            <li>Iconic</li>
+        </ul>
+    <h3>Grand Canyon</h3>
+        <ul>
+            <li>Is a chasm 277 miles long and up to 18 miles wide</li>
+            <li>Took 3-6 million years to form; erosion continues to alter its contours</li>
+            <li>Was made a national monument in 1908 and became a national park in 1919</li>
+            <li>Is 190 miles long</li>
+        </ul>
+    <h3>Mt. Rushmore</h3>
+        <ul>
+            <li>It took 14 years to complete Mount Rushmore.</li>
+            <li>90% of the heads were carved with dynamite</li>
+            <li>The sculpture cost $989,992.32 to build</li>
+            <li>Gutzon Borglum studied in Paris and became friends with Auguste Rodin who heavily influenced the young artist.</li>
+        </ul>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+      "use strict"
+      $(document).ready(function(){
+        $("ul").each(function(){
+          $(this).children("li").first().css("font-weight", "bold");
+          });
+          $("li").click(function(){
+            $(this).parent().addClass("invisible");
+          });
+          $("li").css("font-style", "italic");
+      });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+	</style>
+
+</head>
+<body>
+	<input type="text" id="first-operand">
+	<input type="text" id="operator">
+	<input type="text" id="second-operand">
+	<button id="calculate">Calculate</button>
+	<div id="answer"></div>
+
+	<button id="one">1</button>
+	<button id="two">2</button>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript">
+		var num = "";
+		$(document).ready(function(){
+			$("#one").click(function(){
+				num = num + '1';
+				$("#first-operand").val(num);
+			});
+			$("#two").click(function(){
+				num = num + '2';
+				$("#first-operand").val(num);
+			});
+
+			$("#calculate").click(function(){
+				var firstOperand = $("#first-operand").val();
+				console.log(firstOperand);
+				var secondOperand = $("#second-operand").val();
+				console.log(secondOperand);
+				var operator = $("#operator").val();
+				console.log(operator);
+
+			});
+
+		});
+	</script>
+</body>
+</html>
